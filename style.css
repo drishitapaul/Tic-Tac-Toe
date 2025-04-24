@@ -124,12 +124,14 @@ nav ul {
 }
 
 .line {
-  background-color: var(--line-accent);
-  height: 4px;
-  width: 0;
-  position: absolute;
-  border-radius: 5px;
-  transition: width 1s ease-in-out;
+    background-color: #911d91;
+    height: 4px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left center;
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 950px) {
